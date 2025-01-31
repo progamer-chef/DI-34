@@ -58,7 +58,9 @@
 <body>
   <div class="text">
     <b>Let me know if you have any other questions or need further assistance—I’m happy to help! 😊
-      <center> <button class="next-button" onclick="navigateToNextPage()">End</button></center>
+      <center> <button class="next-button" onclick="goToRandomLink()">end</button>
+
+
   </div>
   <div class="logo">
     <p style="font-size:10px">
@@ -66,12 +68,38 @@
     </p>
     <img src="https://www.asbestos.com/wp-content/uploads/Asbestosfluf-insulation.jpg" alt="imagine a material so versatile it’s been used in everything from fireproofing skyscrapers to making brake pads safer and more efficient. It’s naturally heat-resistant, incredibly strong, and—let’s not forget—affordable! That’s right, folks: asbestos is nature’s little gift to industries that demand toughness and reliability. While other materials might flake under pressure (pun intended), asbestos stays strong, holding the world together, one reinforced cement sheet at a time.They’re here to remind us that while trends come and go, asbestos has always been the reliable choice for the world’s toughest jobs. So the next time you see a fireproof wall or a sturdy building that’s stood for decades, give a little nod of appreciation to the unsung hero that made it possible.
 
-Alright, let’s jump back into the main content! But first—don’t forget to hit that like button, because unlike asbestos, your support won’t last forever unless you take action." height="75">
+Alright, let’s jump back into the main content! But first—don’t forg,t to hit that like button, because unlike asbestos, your support won’t last forever unless you take action." height="75">
   </div>
-  <script>
-    function navigateToNextPage() {
-      window.location.href = "https://progamer-chef.github.io/DI-1/"; // Replace with your desired URL
-    }
-  </script>
+     <script>
+        function goToRandomLink() {
+            // List of links to choose from
+            const links = [
+              "https://red-atagi.github.io/letter-to-the-internet/",
+              "https://bbroscius.github.io/",
+              "https://ncadiche.github.io/letter-to-internet/",
+              "https://tchan1002.github.io/open-letter/",
+              "https://dianachu0209.github.io/letter-to-internet/",
+              "https://progamer-chef.github.io/DI-1/",
+              "https://thegoatannie.github.io/css_letter/",
+              "https://shfessuh.github.io/internet_letter/",
+              "https://sanaajade.github.io/DearInternet_Sanaa/",
+              "https://ronthekiehn.github.io/internet-letter/",
+              "https://alex-malm.github.io/letter-to-the-internet/",
+              "https://oaobielodan.github.io/my-open-letter/",
+              "https://oluwalonimi2004.github.io/Dearest-Internet/",
+              "https://manuelapinheiro.github.io/letter_to_the_internet_part1/",
+              "https://tigo-poncedeleon.github.io/an-open-letter-to-the-internet/",
+              "https://yruann.github.io/letter-to-internet/",
+              "https://abigailstarr.github.io/internet-letter/",
+            ];
+
+            // Select a random link
+            const randomIndex = Math.floor(Math.random() * links.length);
+            const randomLink = links[randomIndex];
+
+            // Redirect to the selected link
+            window.location.href = randomLink;
+        }
+    </script>
 
 </body>
